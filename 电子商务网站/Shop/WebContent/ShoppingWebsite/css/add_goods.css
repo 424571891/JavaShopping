@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.card{
+	width:90%;
+	height:600px;
+	margin-bottom:10px;
+	background-color:red;
+	border:red solid yellow;
+	margin-left:auto;
+	margin-right:auto;
+}
+.bt{
+	width:33%;
+	height:8%;
+	background-color:#ff5300;
+	cursor:pointer;/*鼠标图标变化*/
+	border-color:#ff5300;
+	color:white;
+
+	margin-top:60px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.card-right{
+	text-align:center;
+	background-color:#d2d2d2;
+	width:50%;
+	height:100%;
+	float:left;
+}
+.card-left{
+	background-color:#ffffff;
+	width:50%;
+	height:100%;
+	float:left;
+	font-size:30px;
+}
+.image{
+	width:90%;
+	height:90%;
+	
+}
+.title{
+	font-size:40px;
+	float:left;
+}
+.price{
+	font-size:40px;
+	color:#ff5300;
+	float:left;
+}
+.text{
+	margin-top:0px;
+	font-size:40px;
+	float:left;
+	
+}
+.op{
+	font-size:30px;	
+}
+input{
+	font-size:30px;
+}
+textarea{
+	font-size:20px;
+}

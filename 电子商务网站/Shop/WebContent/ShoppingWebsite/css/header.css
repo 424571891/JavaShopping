@@ -1,0 +1,116 @@
+@charset "UTF-8";
+#head{
+	background-color:#ffffff;
+	width:100%;
+	height:150px;
+	border-bottom:solid 3px red;
+	margin-bottom:50px;
+}
+
+.pig_logo{
+	width:100px;
+	height:100px;
+	margin-top:25px;
+	margin-left:50px;
+	float:left;
+	background-color:white;
+	cursor:pointer;/*鼠标图标变化*/
+}
+.pig_logo:hover .pig_before{
+	display:none;
+}
+.pig_logo:hover .pig_after{
+	display:block;
+}
+.pig_before{
+	width:100px;
+	height:100px;
+}
+.pig_after{
+	width:100px;
+	height:100px;
+	display:none;
+}
+
+.search_logo{
+	width:60px;
+	height:60px;
+	float:left;
+	background-color:white;
+} 
+.search_before{
+	width:60px;
+	height:60px;
+} 
+.search_after{
+	width:60px;
+	height:60px;
+	display:none;
+} 
+.search_logo:hover{
+	background-color:rgb(255, 95, 17);
+}
+.search_logo:hover .search_before{
+	display:none;
+}
+.search_logo:hover .search_after{
+	display:block;
+}
+.search{
+	height:60px;
+	width:500px;
+	float:left;
+	font-size:22px;/*搜索字体大小*/
+}
+.se{
+	height:60px;
+	width:560px;
+	float:left;
+	margin-top:55px;  /*上边距*/
+	margin-left:5%;
+}
+
+.cart_logo{
+	width:60px;
+	height:60px;
+	float:left;
+}
+
+.cart{
+	height:60px;
+	width:150px;
+	float:right;
+	text-align:center;
+	margin-top:55px;  /*上边距*/
+	margin-right:30px;
+	background-color:white;
+	cursor:pointer;/*鼠标图标变化*/
+}
+.cart_before{
+	width:60px;
+	height:60px;
+} 
+.cart_after{
+	width:60px;
+	height:60px;
+	display:none;
+} 
+.cart:hover{
+	background-color:white;
+}
+.cart:hover .cart_before{
+	display:none;
+}
+.cart:hover .cart_after{
+	display:block;
+}
+.cart:hover .cart_text{
+	color:#ff5300;
+}
+.cart_text{
+	font-size:22px;
+	float:right;
+	color:#808080;
+}
+
+

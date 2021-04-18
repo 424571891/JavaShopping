@@ -1,0 +1,69 @@
+<%@page pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="/Shop/ShoppingWebsite/css/header.css">
+</head>
+<body>
+
+<div id="head">
+<div class="pig_logo" id="piglogo">
+<img src="/Shop/ShoppingWebsite/image/pig_before.png" class="pig_before"/>
+<img src="/Shop/ShoppingWebsite/image/pig_after.png" class="pig_after"/>
+</div>
+<div class="se">
+<input name="search" type="search" class="search" value="明星同款"/>
+<div class="search_logo" id="search">
+<input type="image" src="/Shop/ShoppingWebsite/image/search_before.png" class="search_before"/>
+<input type="image" src="/Shop/ShoppingWebsite/image/search_after.png" class="search_after"/>
+</div>
+</div>
+
+<div class="cart" id="melogo">
+<div class="cart_logo">
+<input type="image" src="/Shop/ShoppingWebsite/image/me_before.png" class="cart_before"/>
+<input type="image" src="/Shop/ShoppingWebsite/image/me_after.png" class="cart_after"/>
+</div>
+<p class="cart_text">个人中心</p>
+</div>
+
+
+<div class="cart" id="cartlogo">
+<div class="cart_logo">
+<input type="image" src="/Shop/ShoppingWebsite/image/cart_before.png" class="cart_before"/>
+<input type="image" src="/Shop/ShoppingWebsite/image/cart_after.png" class="cart_after"/>
+</div>
+<p class="cart_text">购物车</p>
+</div>
+
+</div><!-- head --><!-- ------------------------------------------------------------------- -->
+</body>
+
+<script>
+
+function toIndex(){
+	window.location.href = "/Shop/ShoppingWebsite/jsp/index.jsp";
+}
+
+function toCart(){
+	window.location.href = "/Shop/CartServlet";
+}
+
+function toMe(){
+	window.location.href = "/Shop/MeServlet";
+}
+
+function toSearch(){
+	window.location.href = "/Shop/Goods_message_servlet?gno=G001";
+}
+
+document.getElementById("piglogo").onclick = toIndex;
+document.getElementById("cartlogo").onclick = toCart;
+document.getElementById("melogo").onclick = toMe;
+document.getElementById("search").onclick = toSearch;
+
+</script>
+
+</html>

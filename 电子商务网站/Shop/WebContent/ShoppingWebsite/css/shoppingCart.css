@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+.card{
+	width:80%;
+	height:150px;
+	margin-bottom:10px;
+	background-color:red;
+	border:red solid yellow;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.bt{
+	width:20%;
+	height:8%;
+	background-color:#ff5300;
+	cursor:pointer;/*鼠标图标变化*/
+	border-color:#ff5300;
+	color:white;
+}
+.card-right{
+	text-align:center;
+	background-color:#d2d2d2;
+	width:95%;
+	height:100%;
+	float:left;
+}
+.cc{
+	margin-top:55px;
+	background-color:red;
+	width:30px;
+	height:30px;
+}
+.card-left{
+	background-color:#ffffff;
+	width:5%;
+	height:100%;
+	float:left;
+}
+.image{
+	width:100%;
+	height:100%;
+	
+}
+
+.card-right-1{
+	width:18%;
+	height:100%;
+	float:left;
+}
+.card-right-2{
+	padding-top:50px;
+	font-size:30px;
+	width:37%;
+	height:100%;
+	float:left;
+}
+.card-right-3{
+		padding-top:50px;
+	font-size:30px;
+	width:20%;
+	height:100%;
+	float:left;
+}
+.card-right-4{
+		padding-top:50px;
+	font-size:30px;
+	width:5%;
+	height:100%;
+	float:left;
+}
+.card-bottom1{
+	margin-left:120px;
+	float:left;
+	width:100px;
+	height:50px;
+}
+.card-bottom2{
+	margin-right:120px;
+	float:right;
+	width:100px;
+	height:50px;
+}
+.bt{
+	width:100%;
+	height:100%;
+	background-color:#ff5300;
+	cursor:pointer;/*鼠标图标变化*/
+	border-color:#ff5300;
+	color:white;
+	float:right;
+}
